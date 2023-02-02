@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    /* height: 10vh; */
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    border-radius: 15px;
+    color: white;
+
+}
+.SecHeader > img{
+   width: 60px;
+    padding-right: 20px;
+}
+.SecHeader{
+    display: flex;
+}
+.InputDiv{
+    width: 60vw;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid yellow; */
+}
+.InputDiv > input{
+    border-radius: 5px;
+    font-size: 30px;
+    width: 25vw;
+    border: 1px solid #D5D4D8;
+    /* margin-left: 20px; */
+    /* margin-left: 80px;
+    margin-right: 80px; */
+    padding: 10px;
+    text-indent: 5px;
+    color: black;
+}
+.InputMain{
+    width: 60vw;
+    /* border: 10px solid yellow; */
+    margin: auto;
+}
+.ButtonDiv{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    width: 60vw;
+    font-size: 30px;
+    padding: 10px;
+    /* border: 1px solid yellow; */
+    color: white;
+    border-radius: 5px;
+}
+.MyButton{
+    text-align: center;
+    width: 60vw;
+}
+.DisplayDiv{
+    margin: auto;
+    margin-top: 70px;
+    width: 30vw;
+    text-align: center;
+    height: 50vh;
+}
+.CourseProject > h4{
+    font-size: xx-large;
+}
+.InputMain > img{
+    width: 60vw;
+    padding-top: 40px;
+    text-align: center;
+    max-width: 100%;
+    border-radius: 20px;
+}
+.MemeGenerator{
+    font-size: 30px;
+}
+.Name{
+    font-size: 30px;
+}
